@@ -1,0 +1,161 @@
+body{
+	background-image: url("doom.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+#principalNav{
+	background-color: #3498db;
+	background-image: url("ghost.png");
+	background-size: cover;
+	font-family: "Tippa";
+	font-size: 20px;
+	font-weight: bold;
+	height: 120px;
+	font-weight: bold;
+}
+
+.principalNavv{
+	font-size: 100%;
+	color: black;
+	margin-right: 2%;
+	margin-bottom: 30px;
+}
+
+.principalNavv:hover{
+	animation-name: nav;
+	color: #0B610B;
+    animation-duration: 1s;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+}
+
+#intro{
+	background-image: url("identificacion.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	margin-top: 90px;
+	clear: both;
+	opacity: 0.7;
+}
+
+#myName{
+	margin-left: 0.5%;
+	float: left;
+	font-family: Tippa;
+	-webkit-animation: color_change 1s infinite alternate;
+	-moz-animation: color_change 0.1s infinite alternate;
+	-ms-animation: color_change 1s infinite alternate;  
+	-o-animation: color_change 1s infinite alternate;	
+	animation: color_change 0.5s infinite alternate;
+	margin-top: 50px;
+	display: none;
+}
+
+#sabana{
+	background-image: url("frankenstein.jpg");
+	background-size: cover;
+	background-color: black;
+	width: 40%;
+	height: 700px;;
+}
+
+#competenciaHabilidades{
+	font-family: Unispace;
+	color: white;
+	margin-top: 10px;
+}
+
+#competenciasLaborales{
+	font-family: Unispace;
+	color: white;
+}
+
+#vocacion{
+	font-family: Unispace;
+	color: white;
+}
+
+#fotosEntrevistas{
+	font-family: Unispace;
+	color: white;
+}
+
+#seba{
+	float: left;
+	margin-left: 100px;
+}
+
+#fotoSeba{
+	height: 128px;
+}
+
+#fotoRita{
+	float: right;
+	margin-right: 100px;
+}
+
+#entrevistas{
+	font-family: Unispace;
+	color: white;
+	clear: both;
+}
+
+#conceptos{
+	font-family: Unispace;
+	color: white;
+}
+
+/*ANIMACIONES*/
+@-webkit-keyframes nav{
+    from {color: red;}
+    to {color: #0B610B;}
+}
+
+@-moz-keyframes nav{
+    from {color: red;}
+    to {color: #0B610B;}
+}
+
+@-ms-keyframes nav{
+    from {color: red;}
+    to {color: #0B610B;}
+}
+
+@-o-keyframes nav{
+    from {color: red;}
+    to {color: #0B610B;}
+}
+
+@-webkit-keyframes color_change{
+	from {color: #FF0080;}
+	to {color: #FFBF00;}
+}
+
+@-moz-keyframes color_change{
+	from {color: blue;}
+	to {color: #f1c40f;}
+}
+
+@-ms-keyframes color_change{
+	from {color: #FF0080;}
+	to {color: #FFBF00;}
+}
+
+@-o-keyframes color_change{
+	from {color: #FF0080;}
+	to {color: #FFBF00;}
+}
+
+@font-face{
+	font-family: Unispace;
+	src: url("unispace rg.ttf");
+}
+
+@font-face{
+	font-family: Tippa;
+	src: url("Tippa.ttf");
+}
