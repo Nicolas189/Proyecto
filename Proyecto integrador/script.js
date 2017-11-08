@@ -44,12 +44,12 @@ $(document).ready(function(){
 	
 	//Function to make principalNav and buttonToTop disappear
 	function makeDisappear(){
-    if(document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200){
-        $("#buttonToTop").css("display", "block");
-		$("#principalNav").hide(1000);
-    }else{
-        $("#buttonToTop").css("display", "none");
-		$("#principalNav").show(1000);
-    }
-}
+		if(document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200){
+			$("#buttonToTop").css("display", "block");
+			$("#principalNav").hide(1000);
+		}else{
+			$("#buttonToTop").css("display", "none");
+			$("#principalNav").show(1000);
+		}
+	}
 });
