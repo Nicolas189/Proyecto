@@ -4,6 +4,10 @@ body{
 	position: relative;
 }
 
+#body_fondo{
+	background-image: url("ghost_papa.png");
+}
+
 #principalNav{
 	background-color: #3498db;
 	background-image: url("ghost.png");
