@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	//To show my name with some animation
 	$("#myName").show(1000);
 	
 	//Function to make smooth scroll
@@ -51,5 +52,5 @@ $(document).ready(function(){
 			$("#buttonToTop").css("display", "none");
 			$("#principalNav").show(1000);
 		}
-	}
+	}	
 });
