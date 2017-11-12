@@ -168,7 +168,16 @@
 	color: white;
 	text-align: justify;
 	margin-right: 100px;
-  margin-left: 100px;
+	margin-left: 100px;
+}
+
+#busquedaLaboral{
+	margin-top: 10px;
+	font-family: Unispace;
+	color: white;
+	text-align: justify;
+	margin-right: 100px;
+	margin-left: 100px;
 }
 
 #curriculumVitae{
@@ -181,6 +190,8 @@
 	font-family: Unispace;
 	color: white;
 	text-align: justify;
+	margin-right: 100px;
+	margin-left: 100px;
 }
 
 hr{
