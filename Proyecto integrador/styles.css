@@ -222,7 +222,7 @@ hr{
 }
 
 @-webkit-keyframes color_change{
-	from {color: #FF0080;}
+	from {color: blue;}
 	to {color: #FFBF00;}
 }
 
@@ -232,12 +232,12 @@ hr{
 }
 
 @-ms-keyframes color_change{
-	from {color: #FF0080;}
+	from {color: blue;}
 	to {color: #FFBF00;}
 }
 
 @-o-keyframes color_change{
-	from {color: #FF0080;}
+	from {color: blue;}
 	to {color: #FFBF00;}
 }
 
