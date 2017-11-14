@@ -93,7 +93,7 @@
 	margin-top: 10px;
 	text-align: justify;
 	margin-right: 100px;
-  margin-left: 100px;
+	margin-left: 100px;
 }
 
 #competenciasLaborales{
@@ -101,7 +101,7 @@
 	color: white;
 	text-align: justify;
 	margin-right: 100px;
-  margin-left: 100px;
+	margin-left: 100px;
 }
 
 #vocacion{
@@ -109,7 +109,7 @@
 	color: white;
 	text-align: justify;
 	margin-right: 100px;
-  margin-left: 100px;
+	margin-left: 100px;
 }
 
 #fotosEntrevistas{
@@ -118,16 +118,13 @@
 	color: white;
 	text-align: justify;
 	margin-right: 100px;
-  margin-left: 100px;
-}
-
-#seba{
-	float: left;
 	margin-left: 100px;
 }
 
 #fotoSeba{
+	float: left;
 	height: 128px;
+	margin-left: 100px;
 }
 
 #fotoRita{
@@ -146,7 +143,7 @@
 	clear: both;
 	text-align: justify;
 	margin-right: 100px;
-  margin-left: 100px;
+	margin-left: 100px;
 }
 
 #fondoEntrevistaSantiFabi{
@@ -156,10 +153,10 @@
 
 #textoEntrevistasSantiFabi{
 	font-family: Unispace;
- color: white;
- text-align: justify;
- margin-right: 100px;
- margin-left: 100px;
+	color: white;
+	text-align: justify;
+	margin-right: 100px;
+	margin-left: 100px;
 }
 
 #conceptos{
